@@ -1,0 +1,27 @@
+[
+
+  ["acmp.cpp", "[Double] Compare double, maximal absolute error 1e-6"],
+  ["rcmp4.cpp", "[Double] Compare double sequence, maximal rel/abs error 1e-4"],
+  ["rcmp6.cpp", "[Double] Compare double sequence, maximal rel/abs error 1e-6"],
+  ["rcmp9.cpp", "[Double] Compare double sequence, maximal rel/abs error 1e-9"],
+
+  ["caseicmp.cpp", "[Cases] Compare number"],
+  ["casencmp.cpp", "[Cases] Compare number sequence"],
+  ["casewcmp.cpp", "[Cases] Compare token sequence"],
+  
+  ["ncmp.cpp", "[Int] Compare integer sequence"],
+  ["uncmp.cpp", "[Int] Compare unordered integers"],
+  ["hcmp.cpp", "[Int] Compare huge integer"],
+
+  ["fcmp.cpp", "[String] Compare lines including spaces"],
+  ["yesno.cpp", "[String] single Yes / No"],
+  ["lcmp2.cpp", "[String] Compare ordered lines, ordered tokens, case sensitive"],
+  ["lcmp2_ut.cpp", "[String] Compare ordered lines, unordered tokens, case sensitive"],
+  ["lcmp2_ci.cpp", "[String] Compare ordered lines, ordered tokens, case insensitive"],
+  ["lcmp2_ut_ci.cpp", "[String] Compare ordered lines, unordered tokens, case insensitive"],
+  ["ulcmp2.cpp", "[String] Compare unordered lines, ordered tokens, case sensitive"],
+  ["ulcmp2_ut.cpp", "[String] Compare unordered lines, unordered tokens, case sensitive"],
+  ["ulcmp2_ci.cpp", "[String] Compare unordered lines, ordered tokens, case insensitive"],
+  ["ulcmp2_ut_ci.cpp", "[String] Compare unordered lines, unordered tokens, case insensitive"],
+
+]
