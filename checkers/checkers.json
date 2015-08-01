@@ -1,6 +1,7 @@
 [
 
   ["acmp.cpp", "[Double] Compare double, maximal absolute error 1e-6"],
+  ["acmp3.cpp", "[Double] Compare double sequence, maximal abs error 1e-3"],
   ["rcmp4.cpp", "[Double] Compare double sequence, maximal rel/abs error 1e-4"],
   ["rcmp6.cpp", "[Double] Compare double sequence, maximal rel/abs error 1e-6"],
   ["rcmp9.cpp", "[Double] Compare double sequence, maximal rel/abs error 1e-9"],
