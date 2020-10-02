@@ -30,9 +30,9 @@ int main(int argc, char* argv[])
 {
     registerGen(argc, argv, 1);
 
-    int n = atoi(argv[1]);
-    int m = atoi(argv[2]);
-    size_t k = atoi(argv[3]);
+    int n = opt<int>(1);
+    int m = opt<int>(2);
+    size_t k = opt<int>(3);
 
     int t = rnd.next(-2, 2);
 
@@ -58,10 +58,9 @@ int main(int argc, char* argv[])
         pb[i] = i + 1;
     shuffle(pb.begin(), pb.end());
 
-    cout << n << " " << m << " " << e.size() << endl;
-
+    println(n, m, e.size());
     forn(i, e.size())
-        cout << pa[e[i].first] << " " << pb[e[i].second] << endl;
+        println(pa[e[i].first], pb[e[i].second]);
 
     return 0;
 }
